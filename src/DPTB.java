@@ -7,9 +7,9 @@ public class DPTB {
 		
 	public static void main(String[] args) {
 		JFrame
-			window = new JFrame("Don't Push That Button!");
+			window = new JFrame("Don't Push That Button!");//window
 		JButton
-			button = new JButton("Button");
+			button = new JButton("Button");//Button
 		
 		window.add(button);
 		window.setSize(150, 50);
